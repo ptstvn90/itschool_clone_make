@@ -1,0 +1,151 @@
+.main-content .title-section {
+  height: 300px;
+  background: url("https://www.itschool.ro/_next/static/media/background.008d1f37.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-content .title-section .heading1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.main-content .succes-stories-section .content {
+  display: flex;
+  justify-content: center;
+}
+.main-content .succes-stories-section .flex-column {
+  flex: 1;
+}
+.main-content .succes-stories-text {
+  text-align: center;
+  padding: 96px 50px 36px;
+  max-width: 900px;
+  margin-bottom: 0;
+}
+.main-content .drop-section .dropdown-selectors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main-content .drop-section .dropdown-selectors .dropdown {
+  min-width: 400px;
+  margin: 10px;
+}
+.main-content .drop-section .dropdown-selectors .select {
+  background: var(--white);
+  color: var(--black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px var(--transparent-gray) solid;
+  border-radius: 30px;
+  padding: 1em;
+  cursor: pointer;
+}
+.main-content .drop-section .dropdown-selectors .caret {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top:  8px solid var(--transparent-gray);
+}
+.main-content .drop-section .dropdown-selectors .menu {
+  display: none;
+}
+.main-content .drop-section .dropdown-selectors label {
+  font-size: 14px;
+  color: var(--transparent-gray);
+}
+.main-content .succes-stories-section .flex-column {
+  flex: 1;
+}
+.main-content .succes-cards-section .content {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.main-content .succes-cards-section .flex-column {
+  flex: 1;
+}
+.main-content .succes-cards-section .succes-profile-list .succes-profile-card {
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: rgba(25, 30, 48, 0.1) 0px 2rem 4rem 0px;
+  padding: 20px;
+  max-width: 850px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+.main-content .succes-cards-section .succes-profile-list .profile-image img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.main-content .succes-cards-section .succes-profile-list .profile-info {
+  margin-left: 20px;
+}
+.main-content .succes-cards-section .succes-profile-list .profile-info h2 {
+  font-size: 32px;
+  color: var(--black);
+  margin-bottom: 10px;
+}
+.main-content .succes-cards-section .succes-profile-list .info-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.main-content .succes-cards-section .succes-profile-list .info-row img {
+  margin-right: 5px;
+  font-size: 64px;
+  color: var(--normal-gray);
+}
+.main-content .succes-cards-section .succes-profile-list .info-row span {
+  font-size: 20px;
+  color: var(--light-gray);
+}
+.main-content .schedule-section {
+  background: url("https://www.itschool.ro/_next/static/media/background.c097b26b.svg")
+    no-repeat center;
+  background-size: cover;
+}
+.main-content .schedule-section .content {
+  padding: 100px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--white);
+}
+.main-content .schedule-section .content h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .main-content .title-section {
+    height: 320px;
+  }
+
+  .main-content .title-section .heading1 {
+    font-size: 32px;
+  }
+
+  .main-content .succes-cards-section .content {
+    padding: 50px 20px;
+    flex-direction: column;
+    max-width: 750px;
+  }
+  .main-content .drop-section .dropdown-selectors label {
+    display: flex;
+    justify-content: center;
+  }
+}
