@@ -199,7 +199,7 @@ body {
 }
 
 .main-content .courses-section .content .cards .card {
-  background-color: var(--light-gray);
+  background-color: var(--white);
   max-width: 280px;
   padding: 24px 24px 40px 24px;
   border-radius: 16px;
