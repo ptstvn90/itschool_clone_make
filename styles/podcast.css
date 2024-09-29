@@ -1,0 +1,23 @@
+.main-content .title-section {
+  height: 350px;
+  background: url("https://www.itschool.ro/_next/static/media/background.008d1f37.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 96px 0;
+}
+.main-content .title-section .title-section-text .heading1 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+.main-content .title-section .title-section-text .title-image {
+  display: flex;
+  justify-content: center;
+}
+.main-content .title-section .title-section-text .title-image img {
+  width: 32px;
+  height: 32px;
+}
