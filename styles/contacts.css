@@ -1,0 +1,58 @@
+.main-content .title-section {
+  height: 520px;
+  background: url("https://www.itschool.ro/_next/static/media/background.008d1f37.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-section .content {
+  padding: 48px;
+  display: flex;
+  gap: 20px;
+  box-shadow: rgba(25, 30, 48, 0.1) 0px 30px 60px 0px;
+  border-radius: 16px;
+  background-color: var(--white);
+  margin-top: -100px;
+}
+
+.contact-section .content .separator {
+  width: 1px;
+  height: 100%;
+  background-color: var(--normal-gray);
+}
+
+.contact-section .content .form,
+.contact-section .content .general-info {
+  width: calc(50% - 10px);
+}
+
+.contact-section .content .form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.contact-section .content .form input, textarea {
+  border-radius: 26px;
+  width: 250px;
+  height: 40px;
+}
+.contact-section .content .form div {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section .content .form textarea {
+  width: 100%;
+}
+
+.w-50 {
+  width: calc(50% - 10px);
+}
+
+.w-100 {
+  width: 100%;
+}
